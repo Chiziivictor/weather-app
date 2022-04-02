@@ -4,7 +4,7 @@ import { api } from "./data";
 
 import getForecast from "./getForecast";
 
-const base = "http://dataservice.accuweather.com";
+const base = "https://dataservice.accuweather.com";
 
 const useForecast = () => {
   const [isError, setError] = useState(false);
